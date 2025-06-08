@@ -1,9 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 header{
     background-color: bisque;
     text-align: center;
     padding: 20px;
-
 }
+
 footer{
     position: fixed;
     background-color: bisque;
@@ -12,4 +17,47 @@ footer{
     text-align: center;
     width: 100%;
     bottom: 0;
+}
+
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+ol{
+    margin: 20px;
+    justify-items: center;
+}
+
+#sidenavs a{
+    position: relative;
+    display: block;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#sidenavs a:hover{
+    left: -10px;
+}
+
+#Authenticgames{
+    background-color: green;
+}
+
+#Spok{
+    background-color: blue;
+}
+
+#Jazzghost{
+    background-color: red;
+}
+
+#BaixaMemoria{
+    background-color: grey;
 }
