@@ -1,0 +1,15 @@
+header{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+
+}
+footer{
+    position: fixed;
+    background-color: bisque;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
